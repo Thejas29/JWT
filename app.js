@@ -8,6 +8,6 @@ const authRoutes=require('./routes/route');
 app.use('/auth',authRoutes);
 
 app.listen(PORT,()=>{
-  console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`Server is running on server http://localhost:${PORT}`);
 });
 
